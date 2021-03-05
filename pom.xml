@@ -70,7 +70,7 @@
                             </goals>
                             <configuration>
                                 <rules>
-                                    <DependencyConvergence />
+                                    <DependencyConvergence/>
                                 </rules>
                             </configuration>
                         </execution>
@@ -1311,7 +1311,7 @@
             <dependency>
                 <groupId>com.google.apis</groupId>
                 <artifactId>google-api-services-analytics</artifactId>
-                <version>v3-rev123-1.21.0</version>
+                <version>v3-rev20180622-1.27.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.api-client</groupId>
