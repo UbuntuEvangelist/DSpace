@@ -15,7 +15,7 @@
     <properties>
         <!-- This is the path to the root [dspace-src] directory. -->
         <root.basedir>${basedir}/..</root.basedir>
-        <spring.version>3.2.5.RELEASE</spring.version>
+        <spring.version>5.2.19.RELEASE</spring.version>
         <xoai.version>3.2.10</xoai.version>
         <jtwig.version>2.0.1</jtwig.version>
     </properties>
@@ -205,7 +205,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>19.0</version>
+            <version>30.0-android</version>
         </dependency>
         <dependency>
             <groupId>com.lyncode</groupId>
