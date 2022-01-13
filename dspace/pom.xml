@@ -182,7 +182,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>19.0</version>
+            <version>30.0-android</version>
         </dependency>
 
         <!-- The Servlet API is also needed by the 'dspace oai' launcher.xml
