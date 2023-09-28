@@ -25,7 +25,7 @@
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <java.version>1.7</java.version>
         <solr.version>4.10.4</solr.version>
-        <jena.version>2.13.0</jena.version>
+        <jena.version>3.0.0</jena.version>
         <slf4j.version>1.7.14</slf4j.version>
         <!--
             Hibernate version pinned to 4.2, 4.3 does not work with the spring version we are currently using
@@ -70,7 +70,7 @@
                             </goals>
                             <configuration>
                                 <rules>
-                                    <DependencyConvergence />
+                                    <DependencyConvergence/>
                                 </rules>
                             </configuration>
                         </execution>
