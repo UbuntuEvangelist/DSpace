@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <java.version>1.7</java.version>
-        <solr.version>4.10.4</solr.version>
+        <solr.version>8.0.0</solr.version>
         <jena.version>2.13.0</jena.version>
         <slf4j.version>1.7.14</slf4j.version>
         <!--
@@ -70,7 +70,7 @@
                             </goals>
                             <configuration>
                                 <rules>
-                                    <DependencyConvergence />
+                                    <DependencyConvergence/>
                                 </rules>
                             </configuration>
                         </execution>
